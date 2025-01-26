@@ -13,11 +13,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="Topsis_Aaradhya_102203142",
+    name="Topsis102203142",
     version="1.0.14",
     author="Aaradhya Sharma",
-    author_email="asharma3_be22@thapar.edu",
-    url="https://github.com/aradhyyySharrma8204/Topsis_102203142",
+    author_email="sad314858@gmail.com",
+    url="https://github.com/aradhyyySharrma8204/Topsis_DS_102203142",
     description="Topsis Assignment",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -28,5 +28,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=["pandas", "numpy"],
-    entry_points={"console_scripts": ["Topsis_Aaradhya_102203142 = Topsis_Aaradhya_102203142.topsis:main"]},
+    entry_points={"console_scripts": ["Topsis102203142 = Topsis102203142.topsis:main"]},
 )
